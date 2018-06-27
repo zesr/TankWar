@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{3e39c8b9-e61a-491d-a4f8-42a93d855928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Others">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Block">
+      <UniqueIdentifier>{2041b6ea-8fab-47fc-b52b-97318259f631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Boss">
+      <UniqueIdentifier>{9a5137eb-6c32-491c-a851-7238f89cf9f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\enemy">
+      <UniqueIdentifier>{8337c768-346e-4b86-89b5-dd7e2a751443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Setting">
+      <UniqueIdentifier>{1c2ad598-8fec-4978-a9dd-c6d401d7407d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\BaseObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Player.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Boss.cpp">
+      <Filter>Object\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BossBullet1.cpp">
+      <Filter>Object\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BossBullet2.cpp">
+      <Filter>Object\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Enemy1.cpp">
+      <Filter>Object\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Enemy2.cpp">
+      <Filter>Object\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Brick.cpp">
+      <Filter>Block</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Bullet.cpp">
+      <Filter>Block</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Door.cpp">
+      <Filter>Block</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Iron.cpp">
+      <Filter>Block</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Home.cpp">
+      <Filter>Block</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sea.cpp">
+      <Filter>Block</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xBullet.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Tank.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Start.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RankList.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Gamepause.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameClient.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Fail.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\loading.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCShake.cpp">
+      <Filter>Others</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ParticlePic.cpp">
+      <Filter>Others</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\BaseObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Boss.h">
+      <Filter>Object\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BossBullet1.h">
+      <Filter>Object\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Enemy1.h">
+      <Filter>Object\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Enemy2.h">
+      <Filter>Object\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Brick.h">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Bullet.h">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Door.h">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Iron.h">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Home.h">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sea.h">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xBullet.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Tank.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Start.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RankList.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Gamepause.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameClient.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Fail.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\loading.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCShake.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ParticlePic.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameData.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameDefine.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Global.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BossBullet2.h">
+      <Filter>Object\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Player.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
